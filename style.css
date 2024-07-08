@@ -198,6 +198,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 #socials_container {
@@ -260,4 +261,177 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+/* About Section */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.about-containers,
+.about-container,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    height: 2.5rem;
+    width: auto;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.about-paragraph {
+    margin-bottom: 3rem;
+}
+
+/* Experience */
+
+#experience {
+    position: relative  ;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* Projects */
+
+#projects {
+    position: relative;
+}
+
+.project-img {
+    width: 300px;
+    height: auto;
+}
+
+.experience-sub-title {
+    text-align: center;
+
+}
+
+.button-container {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Video Previews for Projects */
+
+.linear-preview {
+    width: 600px;
+    height: auto;
+    margin: 3rem;
+    border-radius: 2rem;
+    object-fit: scale-down;
+}
+
+
+
+/* Contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
 }
