@@ -233,7 +233,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: (53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -434,4 +434,9 @@ article .icon {
 
 .email-icon {
     height: 2.5rem;
+}
+
+.p-list1 {
+    margin-bottom: 5px; /* Adjusts spacing between paragraphs */
+    line-height: 1.3;    /* Ensures the lines within a paragraph are well-spaced */
 }
